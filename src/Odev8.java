@@ -1,6 +1,3 @@
-//Java'da iki tamsayıyı toplamak, çıkarmak, çarpmak, bölmek ve bölümünden kalanını hesaplamak için
-// bir program yazınız.
-// Sayılar `15` ve `2` olsun
 public class Odev8 {
     public static void main(String[] args) {
         int a = 15;

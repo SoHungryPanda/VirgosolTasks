@@ -1,15 +1,8 @@
-//Ali ve Veli, marketten alışveriş yaparken aldıkları ürünlerin fiyatlarını hesaplamak istiyorlar.
-//Ali, bir ürünün fiyatını 123.456 TL olarak görüyor.
-//Ancak Ali, ondalık kısmı görmek istemiyor ve bu fiyatı tam sayı olarak dönüştürmek istiyor.
-//Veli ise, kendi birikimlerini tam sayı olarak hesapladıktan sonra byte cinsine dönüştürmek istiyor.
-//Son olarak, Ali ve Veli aldıkları ürünlerin toplam fiyatını hesaplamak istiyorlar.
-//
-//Ali ve Veli'nin bu dönüşümleri yaparak toplam fiyatı hesaplayan bir Java programı yazınız.
-
 public class Odev9 {
     public static void main(String[] args) {
         float tutar = 123.456f;
         int inttutar = (int) tutar;
+        int ikisitoplami = inttutar + inttutar;
         //byte byteTutar = (byte) inttutar;
         //Üstteki bu dönüşüm çalışmadı, neden çalışmadığını araştır.
 
@@ -29,5 +22,6 @@ public class Odev9 {
         System.out.println("Veli'nin birikimi (byte):" + Integer.toBinaryString(inttutar));
         //System.out.println("Veli'nin birikimi (byte):");
         //System.out.println(Integer.toBinaryString(byteTutar));
+        System.out.println("İkisinin paraları toplamı (tam sayı):" + ikisitoplami);
     }
 }
