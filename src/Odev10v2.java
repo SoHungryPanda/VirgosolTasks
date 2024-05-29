@@ -2,9 +2,9 @@ public class Odev10v2 {
     public static void main(String[] args) {
         boolean havaGuzel = false;
         boolean yeterliPara = true;
-        if (havaGuzel==true)
+        if (havaGuzel)
         {
-            if (yeterliPara==true)
+            if (yeterliPara)
             {
                 System.out.println("Yemeğe gidilir");
             }
