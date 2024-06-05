@@ -1,3 +1,5 @@
+package Day1;
+
 import static java.lang.Math.pow;
 
 public class HelloWorld {

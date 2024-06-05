@@ -1,3 +1,5 @@
+package Day1;
+
 public class Odev3 {
     public static void main(String[] args) {
 

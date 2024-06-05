@@ -1,3 +1,5 @@
+package Day1;
+
 public class Odev4 {
     public static void main(String[] args) {
 
@@ -10,7 +12,7 @@ public class Odev4 {
         System.out.print("Yaşım " + b + "\n");
         System.out.print("Boyum " + c + " metre." + "\t");
         System.out.print("Banka hesabımda " + d + " TL para var.");
-        }
     }
+}
 
 

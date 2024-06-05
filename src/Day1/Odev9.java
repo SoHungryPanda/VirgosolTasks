@@ -1,3 +1,5 @@
+package Day1;
+
 public class Odev9 {
     public static void main(String[] args) {
         float tutar = 123.456f;
@@ -5,10 +7,10 @@ public class Odev9 {
         int ikisitoplami = inttutar + inttutar;
         //byte byteTutar = (byte) inttutar;
         System.out.print("Tutar:");
-        System.out.printf("%,.2f" , tutar);
-        System.out.print("\n"+"Ali'nin görmek istediği v1:");
-        System.out.printf("%,.0f" , tutar);
-        System.out.print("\n"+"Ali'nin görmek istediği v2:");
+        System.out.printf("%,.2f", tutar);
+        System.out.print("\n" + "Ali'nin görmek istediği v1:");
+        System.out.printf("%,.0f", tutar);
+        System.out.print("\n" + "Ali'nin görmek istediği v2:");
         System.out.println(inttutar);
         System.out.println("Veli'nin birikimi (tam sayı):" + inttutar);
         System.out.println("Veli'nin birikimi (byte):" + Integer.toBinaryString(inttutar));

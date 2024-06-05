@@ -1,10 +1,10 @@
-public class Odev7 {
+package Day1;
+
+public class Odev7v2 {
     public static void main(String[] args) {
         int i;
         i = 6;
-        int j;
-        j = 50;
-        i = i + j;
+        i = i + 50;
         System.out.print(i);
-    }}
-
+    }
+}

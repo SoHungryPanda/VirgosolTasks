@@ -1,3 +1,5 @@
+package Day1;
+
 public class Odev6 {
     public static void main(String[] args) {
         int year;
@@ -11,4 +13,5 @@ public class Odev6 {
         color = "Race Blue";
         price = 2000067.00;
         System.out.print(year + " " + brand + " " + color + " " + model + " " + price + "TRY");
-}}
+    }
+}
