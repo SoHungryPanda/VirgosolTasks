@@ -4,16 +4,16 @@ public class Task09 {
     public static void main(String[] args) {
         String str = "abc";
 
-        char chilk = str.charAt(0);
-        int chilkASCII = chilk;
-        System.out.println("Karakter:" + chilk + ", ASCII Değeri:" + chilkASCII);
+        char chIlk = str.charAt(0);
+        int chIlkASCII = chIlk;
+        System.out.println("Karakter:" + chIlk + ", ASCII Değeri:" + chIlkASCII);
 
-        char chikinci = str.charAt(1);
-        int chikinciASCII = chikinci;
-        System.out.println("Karakter:" + chikinci + ", ASCII Değeri:" + chikinciASCII);
+        char chIkinci = str.charAt(1);
+        int chIkinciASCII = chIkinci;
+        System.out.println("Karakter:" + chIkinci + ", ASCII Değeri:" + chIkinciASCII);
 
-        char chucuncu = str.charAt(2);
-        int chucuncuASCII = chucuncu;
-        System.out.println("Karakter:" + chucuncu + ", ASCII Değeri:" + chucuncuASCII);
+        char chUcuncu = str.charAt(2);
+        int chUcuncuASCII = chUcuncu;
+        System.out.println("Karakter:" + chUcuncu + ", ASCII Değeri:" + chUcuncuASCII);
     }
 }

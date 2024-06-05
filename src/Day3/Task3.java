@@ -1,7 +1,7 @@
 package Day3;
 //Kullanıcıdan alınan bir sayıya kadar Fibonacci serisini while döngüsü kullanarak yazdıran bir Java programı yazın.
 
-import java.util.Scanner;
+//import java.util.Scanner;
 
 public class Task3 {
     public static void main(String[] args) {
